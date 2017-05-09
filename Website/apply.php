@@ -60,7 +60,7 @@
 			?>
             <!-- All required elements are given appropriately -->
             <h1>Application Complete</h1>
-            <p>Your application has been submitted.  Thank you for your interest.  You should receive a confirmation email within 24 hours.  If you do not receive your confirmation email please contact <a href="mailto:Joseph.Chipperfield@bio.uib.no">Joe Chipperfield</a>.</p>
+            <p>Your application has been submitted.  Thank you for your interest.  You should receive a confirmation email within 24 hours.  If you do not receive your confirmation email please contact <a href="mailto:joseph.chipperfield@nmbu.no">Joe Chipperfield</a>.</p>
             <p>Applications will be reviewed at midday on 30<sup>th</sup> June 2017 and the successful candidates will be notified within two weeks of this date.  If you are applying after the 30<sup>th</sup> June, then you will admitted if we have available places after the initial selection process.  In these cases, you will be notified either within two days of receiving your application or after the 30<sup>th</sup> June, whichever is the latest.  Thank you for your application!</p>
             <p><a href="index.html">Return to course information</a></p>
             <?php
