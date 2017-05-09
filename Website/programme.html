@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Bayesian Modelling Summer School</title>
+	<link rel="stylesheet" href="./css/main.css" type="text/css" />
+</head>
+<body>
+	<!-- Elements to appear at the top of the website -->
+	<div class="top_matter">
+    	<div class="title_sec">
+        	<div class="main_title">International Summer School on Bayesian Modelling</div>
+            <div class="sub_title">An Introduction for Ecologists and Environmental Scientists</div>
+        </div>
+    	<div class="section_line"></div>
+        <div class="date_sec">25<sup>th</sup> - 29<sup>th</sup> September 2017</div>
+	</div>
+    <!-- Elements to appear at the middle of the website -->
+    <div class="mid_matter">
+    	<!-- Elements to appear in the sidebar -->
+    	<div class="sidebar">
+        	<div class="sidebar_element" id="se1"><a href="index.html">Home</a></div>
+            <div class="sidebar_element" id="se2"><a href="location.html">Location</a></div>
+            <div class="sidebar_element" id="se3"><a href="tutors.html">Tutors</a></div>
+            <div class="sidebar_current" id="se4">Programme</div>
+            <div class="sidebar_element" id="se5"><a href="apply.html">Apply</a></div>
+        </div>
+        <!-- Main contents of the page -->
+        <div class="main_text">
+        	<p>We will upload courses materials and update the course schedule on this page when they become available.  Please check back regularly.</p>
+            <h1>Software</h1>
+            <p>Participants will require the use of a laptop for the practical exercises.  If you are unable to bring your own laptop then please mention this in your application and we'll try and arrange use of a laptop for the duration of the course.  Whilst there will be some internet access available, we recommend that participants install the following software before they arrive on the course:</p>
+            <ul>
+            	<li><a href="http://www.r-project.org">R</a> statistical programming platform</li>
+                <li><a href="http://mcmc-jags.sourceforge.net/">JAGs</a> Bayesian modelling software</li>
+                <li><a href="http://cran.r-project.org/web/packages/rjags/index.html">rjags</a> R package to call JAGs from within the R environment</li>
+                <li><a href="http://cran.r-project.org/web/packages/coda/index.html">coda</a> R package for the analysis of MCMC output</li>
+                <li><a href="http://www.r-inla.org/download">INLA</a> R package for the fitting of Gaussian Markov Random Field models</li>
+                <li><a href="http://cran.r-project.org/web/packages/rgdal/index.html">rgdal</a> R package to handle and manipulate spatial data</li>
+            </ul>
+            <p>The easiest way to install the full set of R packages required for this course is to type <span class="R_code">install.packages(c("rjags", "coda", "INLA", "rgdal"), repos = c(getOption("repos"), "http://www.math.ntnu.no/inla/R/stable"))</span> into the R console.</p>
+            <h1>Course Schedule</h1>
+            <h2>Sunday 24<sup>th</sup> September</h2>
+            <table class="schedule">
+                <tr>
+                	<td><span class="programme_optional">4:30pm</span></td>
+                    <td><span class="programme_optional">First <a href="http://booking.norled.no/default.aspx">ferry</a> to Lygra leaves <a href="http://norled.no/Default.aspx?pageid=1351">Bergen Strandkaiterminal</a> (please aim to be at the terminal 20 minutes before departure)</span></td>
+                </tr>
+                <tr>
+                	<td><span class="programme_optional">5:10pm</span></td>
+                    <td><span class="programme_optional">First <a href="http://booking.norled.no/default.aspx">ferry</a> from Bergen arrives at Lygra</span></td>
+                </tr>
+                <tr>
+                	<td>7:00pm</td>
+                    <td>Evening meal</td>
+                </tr>
+                <tr>
+                	<td>8:00pm</td>
+                    <td>Introduction and course overview</td>
+                </tr>
+            </table>
+            <h2>Monday 25<sup>th</sup> September</h2>
+            <table class="schedule">
+            	<tr>
+                	<td><span class="programme_optional">8:00am</span></td>
+                    <td><span class="programme_optional">Second <a href="http://booking.norled.no/default.aspx">ferry</a> to Lygra leaves <a href="http://norled.no/Default.aspx?pageid=1351">Bergen Strandkaiterminal</a> (please aim to be at the terminal 20 minutes before departure)</span></td>
+                </tr>
+                <tr>
+                    <td><span class="programme_optional">8:40am</span></td>
+                    <td><span class="programme_optional">Second <a href="http://booking.norled.no/default.aspx">ferry</a> from Bergen arrives at Lygra</span></td>
+            	</tr>
+                <tr>
+                	<td>7:30am</td>
+                	<td>Breakfast</td>
+                </tr>
+                <tr>
+                	<td>9:00am</td>
+                    <td>Methods of statistical inference (lecture)</td>
+                </tr>
+                <tr>
+                	<td>11:00am</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>11:15am</td>
+                    <td>Methods of statistical inference (exercise)</td>
+                </tr>
+                <tr>
+                	<td>12:30pm</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                	<td>1:30pm</td>
+                    <td>Introduction to Bayesian theory</td>
+                </tr>
+                <tr>
+                	<td>3:30pm</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>3:45pm</td>
+                    <td>Introduction to JAGS</td>
+                </tr>
+                <tr>
+                	<td>6:00pm</td>
+                    <td>Evening meal</td>
+                </tr>
+                <tr>
+                	<td>7:00pm</td>
+                    <td>After-dinner forum</td>
+                </tr>
+            </table>
+            <h2>Tuesday 26<sup>th</sup> September</h2>
+            <table class="schedule">
+            	<tr>
+                	<td>7:30am</td>
+                	<td>Breakfast</td>
+                </tr>
+                <tr>
+                	<td>9:00am</td>
+                    <td>Introduction to Markov Chain Monte Carlo (lecture)</td>
+                </tr>
+                <tr>
+                	<td>11:00am</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>11:15am</td>
+                    <td>Introduction to Markov Chain Monte Carlo (exercise)</td>
+                </tr>
+                <tr>
+                	<td>12:30pm</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                	<td>1:30pm</td>
+                    <td>Generalized linear models in JAGS (lecture)</td>
+                </tr>
+                <tr>
+                	<td>3:30pm</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>3:45pm</td>
+                    <td>Generalized linear models in JAGS (exercise)</td>
+                </tr>
+                <tr>
+                	<td>6:00pm</td>
+                    <td>Evening meal</td>
+                </tr>
+                <tr>
+                	<td>7:00pm</td>
+                    <td>After-dinner forum</td>
+                </tr>
+            </table>
+            <h2>Wednesday 27<sup>th</sup> September</h2>
+            <table class="schedule">
+            	<tr>
+                	<td>7:30am</td>
+                	<td>Breakfast</td>
+                </tr>
+                <tr>
+                	<td>9:00am</td>
+                    <td>Hierarchical Bayesian modelling (lecture)</td>
+                </tr>
+                <tr>
+                	<td>11:00am</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>11:15am</td>
+                    <td>Hierarchical Bayesian modelling (exercise)</td>
+                </tr>
+                <tr>
+                	<td>12:30pm</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                	<td>1:30pm</td>
+                    <td>Free time</td>
+                </tr>
+                <tr>
+                	<td>6:00pm</td>
+                    <td>Evening meal</td>
+                </tr>
+                <tr>
+                	<td>7:00pm</td>
+                    <td>After-dinner forum</td>
+                </tr>
+            </table>
+            <h2>Thursday 28<sup>th</sup> September</h2>
+            <table class="schedule">
+            	<tr>
+                	<td>7:30am</td>
+                	<td>Breakfast</td>
+                </tr>
+                <tr>
+                	<td>9:00am</td>
+                    <td>Spatial models: an introduction to INLA (lecture)</td>
+                </tr>
+                <tr>
+                	<td>11:00am</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>11:15am</td>
+                    <td>Spatial models: an introduction to INLA (exercise)</td>
+                </tr>
+                <tr>
+                	<td>12:30pm</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                	<td>1:30pm</td>
+                    <td>Spatial models: an introduction to INLA (exercise)</td>
+                </tr>
+                <tr>
+                	<td>2:30pm</td>
+                    <td>Bayesian model selection (lecture)</td>
+                </tr>
+                <tr>
+                	<td>3:30pm</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>3:45pm</td>
+                    <td>Bayesian model selection (lecture)</td>
+                </tr>
+                <tr>
+                	<td>5:00pm</td>
+                    <td>Bayesian model selection (exercise)</td>
+                </tr>
+                <tr>
+                	<td>6:00pm</td>
+                    <td>Evening meal</td>
+                </tr>
+                <tr>
+                	<td>7:00pm</td>
+                    <td>After-dinner forum</td>
+                </tr>
+            </table>
+            <h2>Friday 29<sup>th</sup> September</h2>
+            <table class="schedule">
+            	<tr>
+                	<td>7:30am</td>
+                	<td>Breakfast</td>
+                </tr>
+                <tr>
+                	<td>9:00am</td>
+                    <td>Bayesian model selection (exercise)</td>
+                </tr>
+                <tr>
+                	<td>10:00am</td>
+                    <td>State-space models (lecture)</td>
+                </tr>
+                <tr>
+                	<td>11:00am</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>11:15am</td>
+                    <td>State-space models (exercise)</td>
+                </tr>
+                <tr>
+                	<td>12:30pm</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                	<td>1:30pm</td>
+                    <td>Bayesian methods for simulation models</td>
+                </tr>
+                <tr>
+                	<td>3:30pm</td>
+                    <td>Coffee break</td>
+                </tr>
+                <tr>
+                	<td>3:45pm</td>
+                    <td>Questions and feedback</td>
+                </tr>
+                <tr>
+                	<td>6:00pm</td>
+                	<td>Evening meal</td>
+                </tr>
+                <tr>
+                	<td><span class="programme_optional">7:55pm</span></td>
+                    <td><span class="programme_optional"><a href="http://booking.norled.no/default.aspx">Ferry</a> to <a href="http://norled.no/Default.aspx?pageid=1351">Bergen Strandkaiterminal</a> leaves Lygra</span></td>
+                </tr>
+                <tr>
+                	<td><span class="programme_optional">8:45pm</span></td>
+                    <td><span class="programme_optional"><a href="http://booking.norled.no/default.aspx">Ferry</a> from Lygra arrives at <a href="http://norled.no/Default.aspx?pageid=1351">Bergen Strandkaiterminal</a></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- Elements to appear at the bottom of the website -->
+    <div class="bottom_matter">
+    	<!-- Division containing University icons -->
+        <div class="logo_area">
+        <span class="logo_text">This course is run in partnership with and supported by:</span>
+        <table class="logo_table">
+           	<tr>
+               	<td><a class="image_link" href="https://www.nmbu.no/en"><img src="./images/NMBULogo.jpg" alt="Norwegian University of Life Sciences"/></a></td>
+                <td><a class="image_link" href="http://www.uni-regensburg.de/index.html.en"><img src="./images/RegensburgLogo.jpg" alt="University of Regensburg"/></a></td>
+                <td><a class="image_link" href="https://www.uni-hohenheim.de/en/english"><img src="./images/HohenheimLogo.jpg" alt="University of Hohenheim"/></a></td>
+            </tr>
+        </table></div>
+    	<div class="bottom_banner"></div>
+    	<div class="section_line"></div>
+        <div class="copyright_notice">Website: &copy; 2017 <a href="mailto:joseph.chipperfield@nmbu.no">Joseph Chipperfield</a></div>
+        <div class="copyright_notice">Photographs: &copy; 2017 Amy Eycott and Tessa Bargmann</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Setup the width formatting of the website */
+div.top_matter, div.mid_matter, div.bottom_matter {
+	margin: 1mm 1mm 1mm 1mm;
+	width: 100%;
+	max-width: 1300px;
+	min-width: 850px;
+	overflow: hidden;
+}
+div.mid_matter {
+	display: table-row;
+}
+
+/* Setup line break section */
+div.section_line {
+	margin: 0mm 0mm 0mm 0mm;
+	background-color: rgba(0, 0, 0, 1.0);
+	height: 2mm;
+}
+
+/* Setup the subscript and superscript formatting */
+sup, sub {
+	font-size: 50%;
+}
+
+/* Setup the title section of the website */
+div.title_sec {
+	margin: 0mm 0mm 0mm 0mm;
+	background-image: url(../images/top_banner.jpg);
+	background-repeat: no-repeat;
+	padding-left: 5.5cm;
+	padding-top: 0.5cm;
+	padding-bottom: 1.0cm;
+	white-space: nowrap;
+	height: 1.651cm;
+}
+div.main_title {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+div.sub_title {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans_serif;
+}
+div.date_sec {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(170, 0, 0, 1.0);
+	font-weight: bold;
+	text-align: right;
+}
+
+/* Sidebar section */
+div.sidebar {
+	width: 5.2cm;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1.0);
+	display: table-cell;
+}
+div.sidebar_element {
+	height: 1cm;
+	width: 4cm;
+	padding: 5mm 5mm 5mm 5mm;
+	margin: 1mm 1mm 1mm 1mm;
+	background-color: rgba(52, 51, 43, 1.0);
+}
+div.sidebar_element > a {
+	color: rgba(255, 255, 255, 1.0);
+	text-decoration: none;
+}
+div.sidebar_element:hover {
+	background-color: rgba(208, 202, 194, 1.0);
+}
+div.sidebar_element:hover > a {
+	color: rgba(52, 51, 43, 1.0);
+}
+div.sidebar_current {
+	height: 1cm;
+	width: 4cm;
+	padding: 5mm 5mm 5mm 5mm;
+	margin: 1mm 1mm 1mm 1mm;
+	background: rgba(170, 0, 0, 1.0);
+}
+div.sidebar_current > a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+/* Setup the information section of the website */
+div.main_text {
+	padding: 5mm 5mm 5mm 5mm;
+	margin: 0mm 0mm 0mm 0mm;
+	display: table-cell;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	max-width: 29cm;
+	min-width: 16.5cm;
+}
+div.main_text h1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(170, 0, 0, 1.0);
+}
+div.main_text h2 {
+	font-size: 14px;
+}
+div.main_text a:link {
+	color: rgba(170, 0, 0, 1.0);
+}
+div.main_text a:visited {
+	color: rgba(170, 0, 0, 1.0);
+}
+div.main_text a:hover {
+	color: rgba(217, 89, 0, 1.0);
+}
+div.main_text a:active {
+	color: rgba(217, 89, 0, 1.0);
+}
+div.main_text img.photo_right {
+	margin: 20px 20px 20px 20px;
+	float: right;
+}
+div.main_text img.photo_left {
+	margin: 20px 20px 20px 20px;
+	float: left;
+}
+div.main_text span.R_code {
+	color: rgba(0, 157, 224, 1.0);
+}
+div.main_text table.schedule {
+	border: 0cm;
+}
+
+/* Setup form elements */
+table.form_table {
+	border: 0cm;
+}
+table.form_table td.form_desc {
+	font-size: 10px;
+	font-style: italic;
+	color: rgba(52, 51, 43, 1.0);
+}
+table.form_table td.form_label {
+	text-align: right;
+	font-weight: bold;
+}
+
+/* Setup map elements */
+#map_canvas {
+	float: right;
+	width: 315px;
+	height: 315px;
+	margin: 5mm 5mm 5mm 5mm;
+}
+
+/* Setup text describing tutors */
+div.tutor_text {
+	min-height: 235px;
+}
+
+/* Setup the incorrectly filled form elements */
+form .app_invalid {
+	background-color: rgba(170, 0, 0, 1.0);
+	color: rgba(255, 255, 255, 1.0);
+}
+
+/* Setup the University logo tables */
+table.logo_table td {
+	padding: 3mm 3mm 3mm 3mm;
+}
+div.logo_area > span.logo_text {
+	font-weight: bold;
+	color: rgba(170, 0, 0, 1.0);
+}
+.image_link {
+	text-decoration: none;
+}
+
+/* Setup the bottom section of the website */
+div.bottom_banner {
+	background-image: url(../images/bottom_banner.jpg);
+	background-repeat: no-repeat;
+	height: 130px;
+	margin: 0mm 0mm 0mm 0mm;
+}
+div.copyright_notice {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+/* Setup important update text on the website */
+span.importantUpdate {
+	font-weight: bolder;
+	color: rgba(170, 0, 0, 1.0);
+}
+
+/* Setup optional programme information */
+span.programme_optional {
+	font-weight: lighter;
+	font-style: italic;
+	color: rgba(110, 110, 110, 1.0);
+}

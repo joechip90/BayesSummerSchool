@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Bayesian Modelling Summer School</title>
+	<link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <!-- Javascript to embed google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+		function initialize() {
+			var map_canvas = document.getElementById('map_canvas');
+			var map_options = {
+				center: new google.maps.LatLng(60.6947, 5.1081),
+				zoom: 15,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			var map = new google.maps.Map(map_canvas, map_options);
+			var marker = new google.maps.Marker({
+				position: new google.maps.LatLng(60.6947, 5.1081),
+				map: map
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+</head>
+<body>
+	<!-- Elements to appear at the top of the website -->
+	<div class="top_matter">
+    	<div class="title_sec">
+        	<div class="main_title">International Summer School on Bayesian Modelling</div>
+            <div class="sub_title">An Introduction for Ecologists and Environmental Scientists</div>
+        </div>
+    	<div class="section_line"></div>
+        <div class="date_sec">25<sup>th</sup> - 29<sup>th</sup> September 2017</div>
+	</div>
+    <!-- Elements to appear at the middle of the website -->
+    <div class="mid_matter">
+    	<!-- Elements to appear in the sidebar -->
+    	<div class="sidebar">
+        	<div class="sidebar_element" id="se1"><a href="index.html">Home</a></div>
+            <div class="sidebar_current" id="se2">Location</div>
+            <div class="sidebar_element" id="se3"><a href="tutors.html">Tutors</a></div>
+            <div class="sidebar_element" id="se4"><a href="programme.html">Programme</a></div>
+            <div class="sidebar_element" id="se5"><a href="apply.html">Apply</a></div>
+        </div>
+        <!-- Main contents of the page -->
+        <div class="main_text">
+        	<p><img src="./images/lyngheisenteret.jpg" alt="Photo of Lynheisenteret" class="photo_right" />The course will take place at the <a href="http://www.muho.no/lyngheisenteret">Heathland Centre</a> on the island of Lygra, western Norway.  Lygra lies in the Lindås municipality of Hordaland, approximately 50km north of the city of Bergen.  The course lectures will start promptly at 9am on Monday 25<sup>th</sup> September but we advise that participants arrive at Lygra on the afternoon and evening of Sunday 24<sup>th</sup>.  We have arranged for an evening meal to be served that evening (for around 7pm) and the course accommodation will be available from Sunday afternoon.  The last lecture on the 29<sup>th</sup> will end at 5:00pm and participants are welcome to stay for an evening meal before leaving the centre.  It may also be possible to arrange for participants to stay for an extra night on Lygra on the night of the 29<sup>th</sup> if required.</p>
+            <h1>Accommodation</h1>
+            <p>Participants will be accommodated at the <a href="http://www.lygragjestegard.no/bilder.html">Lygra Gjestegard</a>, a farmhouse situated in the immediate vicinity of the <a href="http://www.muho.no/lyngheisenteret">Heathland Centre</a>.  Accommodation is in shared rooms (maximum 6 people per room).  The course fees cover the accommodation and use of the communal areas from the 24<sup>th</sup> to the 29<sup>th</sup> September.  Please note that there are no shops nearby and, although meals and snacks will be provided, participants are requested to bring enough supplies (such as toiletries, leisure items and extra snacks) with them to last for the entire course.</p>
+            <h1>Getting to Lygra</h1>
+            <p><div id="map_canvas"></div>
+            For most participants, the easiest way to get to Lygra is to travel via Bergen.  <a href="http://booking.norled.no/default.aspx?_ga=1.61713711.222881070.1435232259">Norled</a> run a ferry from the Standkaiterminal in Bergen to Lygra (search for 'Lygra kai' in the booking form) that has a journey time of between 40 minutes and an hour.  Bergen Strandkaiterminal can be found next to the tourist information centre and fish market on Bergen harbour.  All of the express buses from Bergen airport will stop at the fish market.  The ferry leaving Bergen Strandkaiterminal at 4:30pm on the 24<sup>th</sup> will arrive at Lygra around 5:10pm; in time for the evening meal.  For those who might be arriving to Lygra from the direction of the Sognefjord, there is a more direct ferry to Lygra from Flåm, leaving at 3:30pm and arriving at Lygra at 7:55pm.</p>
+            <p>It is also possible to use the same ferry route to leave the island on Friday 29<sup>th</sup> September and the return ferry will leave the island at 7:55pm.  There is also a public bus route between the Heathland centre and Bergen bus terminal.  You can use the journey planner provided by <a href="https://www.skyss.no/">Skyss</a>, searching for buses between 'Lygra snuplass' and 'Bergen busstasjon'.  The bus station in Bergen is a convenient hub for onward travel: all express buses heading to the airport will stop at the bus station and Bergen railway station lies directly opposite.</p>
+           <h1>Getting to Bergen</h1>
+           <p>Bergen is well served by two nearby international airports: <a href="http://www.avinor.no/en/airport/bergen/timetables">Bergen (Flesland) airport</a> and <a href="http://www.avinor.no/en/airport/haugesund/timetables">Haugesund airport</a>.  There are regular express bus services between Bergen (Flesland) airport and the bus station run by <a href="https://www.flybussen.no/?dir=to">Flybussen</a>.  Tickets can be easily purchased at the airport and cost around 100 NOK for a single to Bergen and 170 NOK for a return trip.  The journey time is approximately 30 minutes.  It is also possible to take the Bybanen (Bergen's light rail system) to the centre from the airport, this will be significantly cheaper (around 37 NOK for a single ticket) but will take about 50 mins to reach the city centre.  Timetables for the Bybanen can be found on the <a href="https://www.skyss.no/">Skyss</a> website.</p>
+           <p>Bergen is the western-most terminus of the <a href="http://www.telegraph.co.uk/travel/journeysbyrail/9086552/Norway-Oslo-to-Bergen-by-train.html">famously beautiful</a> Oslo-Bergen train line.  Tickets can be purchased from <a href="https://www.nsb.no/en/">NSB</a>.  There is also a direct ferry to Bergen from Hirtshals in Denmark operated by <a href="http://www.fjordline.com">Fjordline</a>.</p>
+        </div>
+    </div>
+    <!-- Elements to appear at the bottom of the website -->
+    <div class="bottom_matter">
+    	<!-- Division containing University icons -->
+        <div class="logo_area">
+        <span class="logo_text">This course is run in partnership with and supported by:</span>
+        <table class="logo_table">
+           	<tr>
+               	<td><a class="image_link" href="https://www.nmbu.no/en"><img src="./images/NMBULogo.jpg" alt="Norwegian University of Life Sciences"/></a></td>
+                <td><a class="image_link" href="http://www.uni-regensburg.de/index.html.en"><img src="./images/RegensburgLogo.jpg" alt="University of Regensburg"/></a></td>
+                <td><a class="image_link" href="https://www.uni-hohenheim.de/en/english"><img src="./images/HohenheimLogo.jpg" alt="University of Hohenheim"/></a></td>
+            </tr>
+        </table></div>
+    	<div class="bottom_banner"></div>
+    	<div class="section_line"></div>
+        <div class="copyright_notice">Website: &copy; 2017 <a href="mailto:joseph.chipperfield@nmbu.no">Joseph Chipperfield</a></div>
+        <div class="copyright_notice">Photographs: &copy; 2017 Amy Eycott and Tessa Bargmann</div>
+    </div>
+</body>
+</html>
