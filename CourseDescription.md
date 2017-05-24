@@ -76,10 +76,10 @@ All teachers will be present during the residential study period and the course 
 A full programme with links to the relevant teaching materials will be posted on the course website: http://www.bayessummerschool.com/programme.html
 
 In addition material from the following books will be covered:
-Lunn, D., Jackson, C., Best, N., Thomas, A., Spiegelhalter, D. (2012) The BUGS book: a practical introduction to Bayesian analysis.  CRC Press.
-Kéry, M. (2010) Introduction to WinBUGS for ecologists.  Academic Press.
-Kéry, M., Schaub, M. (2011) Bayesian population analysis using WinBUGS.  Academic Press.
-Royle, A. J. (2008) Hierarchical modeling and inference in ecology: the analysis of data from populations, metapopulations and communities.  Academic Press.
+1. Lunn, D., Jackson, C., Best, N., Thomas, A., Spiegelhalter, D. (2012) The BUGS book: a practical introduction to Bayesian analysis.  CRC Press.
+2. Kéry, M. (2010) Introduction to WinBUGS for ecologists.  Academic Press.
+3. Kéry, M., Schaub, M. (2011) Bayesian population analysis using WinBUGS.  Academic Press.
+4. Royle, A. J. (2008) Hierarchical modeling and inference in ecology: the analysis of data from populations, metapopulations and communities.  Academic Press.
 
 ## Prerequisites
 Familiarity with basic statistics (STAT100 or higher for NMBU students).
