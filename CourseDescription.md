@@ -21,7 +21,7 @@ EN (NO=norsk, EN=engelsk)
 25
 
 ### Teaching Exam Periods
-The course runs for one week in early autumn.  Full attendance is mandatory during these dates.  The course assessment is due 1st November.
+The course runs for one week in early autumn.  Full attendance is mandatory during these dates.  The course assessment is due six weeks after the finishing date of the residential study period.
 
 ### Course Frequency
 Annually
