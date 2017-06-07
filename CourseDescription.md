@@ -55,7 +55,7 @@ By the end of the course, participants on the course will know:
 By the end of the course, participants are expected to be able to:
 * Build statistical models using three regularly used Bayesian software platforms: JAGS, STAN, INLA
 * Apply numerical methods such as MCMC to fit Bayesian models to ecological and environmental data
-* Incorporate advanced modelling concepts such as latent variables, and random effects into Bayesian models
+* Incorporate advanced modelling concepts such as latent variables and random effects into Bayesian models
 * Perform Bayesian model selection to select between a number of competing models
 * Demonstrate how to fit simulation (process-based) models using approximate Bayesian methods
 
