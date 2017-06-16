@@ -46,7 +46,7 @@ This course is an annual research-skills residential course and will include par
 ### Knowledge
 By the end of the course, participants on the course will know:
 * The theory behind Bayes theorem and its constituent terms: the prior, the likelihood, and the posterior
-* The differences in the theoretical bases of null-hypothesis testing, likeihood-based approaches, and Bayesian modelling
+* The differences in the theoretical bases of null-hypothesis testing, likelihood-based approaches, and Bayesian modelling
 * The different numerical approaches to fitting Bayesian models: rejection sampling, Markov Chain Monte Carlo (MCMC), Sequential Monte Carlo (SMC)
 * The importance of concepts such as chain length, convergence, thinning, and adaptation in the application of Markov Chain Monte Carlo numerical methods
 * A selection of methods for performing Bayesian model selection (DIC, Bayes factors, reversible-jump MCMC)
