@@ -6,7 +6,7 @@
 Joseph Chipperfield
 
 ### Teachers
-Joseph Chipperfield (NMBU), Florian Hartig (Universität Regensburg), Jörn Pagel (Universität Hohenheim)
+Joseph Chipperfield (NMBU), Florian Hartig (UniversitÃ¤t Regensburg), JÃ¶rn Pagel (UniversitÃ¤t Hohenheim)
 
 ### ECTS Credits
 3
@@ -77,8 +77,8 @@ A full programme with links to the relevant teaching materials will be posted on
 
 In addition material from the following books will be covered:
 1. Lunn, D., Jackson, C., Best, N., Thomas, A., Spiegelhalter, D. (2012) The BUGS book: a practical introduction to Bayesian analysis.  CRC Press.
-2. Kéry, M. (2010) Introduction to WinBUGS for ecologists.  Academic Press.
-3. Kéry, M., Schaub, M. (2011) Bayesian population analysis using WinBUGS.  Academic Press.
+2. KÃ©ry, M. (2010) Introduction to WinBUGS for ecologists.  Academic Press.
+3. KÃ©ry, M., Schaub, M. (2011) Bayesian population analysis using WinBUGS.  Academic Press.
 4. Royle, A. J. (2008) Hierarchical modeling and inference in ecology: the analysis of data from populations, metapopulations and communities.  Academic Press.
 
 ## Prerequisites
