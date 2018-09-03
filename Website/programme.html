@@ -32,16 +32,22 @@
             <p>Participants will require the use of a laptop for the practical exercises.  If you are unable to bring your own laptop then please mention this in your application and we'll try and arrange use of a laptop for the duration of the course.  Whilst there will be some internet access available, we recommend that participants install the following software before they arrive on the course:</p>
             <ul>
             	<li><a href="http://www.r-project.org">R</a> statistical programming platform</li>
+				<li><a href="https://www.rstudio.com/">RStudio</a> graphical interface for R development</li>
                 <li><a href="http://mcmc-jags.sourceforge.net/">JAGs</a> Bayesian modelling software</li>
-				<li><a href="http://mc-stan.org/">STAN</a> Bayesian modelling software</li>
                 <li><a href="http://cran.r-project.org/web/packages/rjags/index.html">rjags</a> R package to call JAGs from within the R environment</li>
-				<li><a href="http://mc-stan.org/interfaces/rstan.html">RStan</a> R package to call STAN from within the R environment</li>
-				<li><a href="https://cran.r-project.org/web/packages/BayesianTools/index.html">BayesianTools</a> general-purpose MCMC samplers for process-based models</li>
                 <li><a href="http://cran.r-project.org/web/packages/coda/index.html">coda</a> R package for the analysis of MCMC output</li>
+				<li><a href="https://cran.r-project.org/web/packages/mvtnorm/index.html">mvtnorm</a> R package for the computation and simultation from multivariate Normal distributions</li>
                 <li><a href="http://www.r-inla.org/download">INLA</a> R package for the fitting of Gaussian Markov Random Field models</li>
                 <li><a href="http://cran.r-project.org/web/packages/rgdal/index.html">rgdal</a> R package to handle and manipulate spatial data</li>
+				<li><a href="https://cran.r-project.org/web/packages/DHARMa/index.html">DHARMa</a> R package to calculate residual diagnostics for hierarchical regression models</li>
+				<li><a href="https://cran.r-project.org/web/packages/mgcv/index.html">mgcv</a> R package to fit generalized additive models</li>
             </ul>
-            <p>The easiest way to install the full set of R packages required for this course is to type <span class="R_code">install.packages(c("rjags", "coda", "INLA", "rgdal", "rstan", "BayesianTools"), repos = c(getOption("repos"), "https://inla.r-inla-download.org/R/stable"), dependencies = TRUE)</span> into the R console.</p>
+            <p>You should install JAGS before installing the R packages.  The easiest way to install the full set of R packages required for this course is to type <span class="R_code">install.packages(c("rjags", "coda", "INLA", "mvtnorm", "INLA", "rgdal", "DHARMa", "mgcv"), repos = c(getOption("repos"), "https://inla.r-inla-download.org/R/stable"), dependencies = TRUE)</span> into the R console.</p>
+			<p>In addition to the core software list above we will, for some exercises, have some parallel teaching materials performing the same analyses using other software.  These will not be directly covered in the lectures but it does give you other analysis options.  To run the analyses in the supplementary teaching materials you will need to install the following software:</p>
+			<ul>
+				<li><a href="https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started">RStan</a> An R interface for the STAN Bayesian Modelling software</li>
+				<li><a href="https://r-nimble.org/download">nimble</a> An interface for the NIMBLE Bayesian Modelling software</li>
+			</ul>
             <h1>Course Schedule</h1>
             <h2>Sunday 16<sup>th</sup> September</h2>
             <table class="schedule">
@@ -58,8 +64,8 @@
                     <td>Evening meal</td>
                 </tr>
                 <tr>
-                	<td>8:00pm</td>
-                    <td>Introduction and course overview</td>
+                	<td>7:00pm</td>
+                    <td>Introductions and course overview</td>
                 </tr>
             </table>
             <h2>Monday 17<sup>th</sup> September</h2>
@@ -78,39 +84,39 @@
                 </tr>
                 <tr>
                 	<td>9:00am</td>
-                    <td>Methods of statistical inference (lecture)</td>
+                    <td>Introduction to Bayesian inference (Florian Hartig)</td>
                 </tr>
                 <tr>
-                	<td>11:00am</td>
+                	<td>10:30am</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
-                	<td>11:15am</td>
-                    <td>Methods of statistical inference (exercise)</td>
+                	<td>10:45am</td>
+                    <td>Introduction to JAGS (Jörn Pagel)</td>
                 </tr>
                 <tr>
-                	<td>12:30pm</td>
+                	<td>11:30am</td>
                     <td>Lunch</td>
                 </tr>
                 <tr>
-                	<td>1:30pm</td>
-                    <td>Introduction to Bayesian theory</td>
+                	<td>12:30pm</td>
+                    <td>Linear regression with JAGS (Jörn Pagel)</td>
                 </tr>
                 <tr>
-                	<td>3:30pm</td>
+                	<td>3:00pm</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
                 	<td>3:45pm</td>
-                    <td>Introduction to JAGS</td>
+                    <td>Residual checks and convergence diagnostics (Florian Hartig)</td>
+                </tr>
+                <tr>
+                	<td>5:00pm</td>
+                    <td>Bayesian inference: interpretation and prediction (Joseph Chipperfield)</td>
                 </tr>
                 <tr>
                 	<td>6:00pm</td>
                     <td>Evening meal</td>
-                </tr>
-                <tr>
-                	<td>7:00pm</td>
-                    <td>After-dinner forum</td>
                 </tr>
             </table>
             <h2>Tuesday 18<sup>th</sup> September</h2>
@@ -121,15 +127,15 @@
                 </tr>
                 <tr>
                 	<td>9:00am</td>
-                    <td>Introduction to Markov Chain Monte Carlo (lecture)</td>
+                    <td>Introduction to Markov Chain Monte Carlo and other samplers(Florian Hartig)</td>
                 </tr>
                 <tr>
-                	<td>11:00am</td>
+                	<td>10:45am</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
-                	<td>11:15am</td>
-                    <td>Introduction to Markov Chain Monte Carlo (exercise)</td>
+                	<td>11:00am</td>
+                    <td>Linear mixed-effect models with JAGS (Joseph Chipperfield)</td>
                 </tr>
                 <tr>
                 	<td>12:30pm</td>
@@ -137,7 +143,7 @@
                 </tr>
                 <tr>
                 	<td>1:30pm</td>
-                    <td>Generalized linear models in JAGS (lecture)</td>
+                    <td>Generalized linear models in JAGS (Jörn Pagel)</td>
                 </tr>
                 <tr>
                 	<td>3:30pm</td>
@@ -145,15 +151,15 @@
                 </tr>
                 <tr>
                 	<td>3:45pm</td>
-                    <td>Generalized linear models in JAGS (exercise)</td>
+                    <td>Generalized linear models in JAGS (Jörn Pagel)</td>
+                </tr>
+                <tr>
+                	<td>5:00pm</td>
+                    <td>The Bayesian paradigm: the prior and other contrasts with frequentism (Florian Hartig)</td>
                 </tr>
                 <tr>
                 	<td>6:00pm</td>
                     <td>Evening meal</td>
-                </tr>
-                <tr>
-                	<td>7:00pm</td>
-                    <td>After-dinner forum</td>
                 </tr>
             </table>
             <h2>Wednesday 19<sup>th</sup> September</h2>
@@ -164,15 +170,19 @@
                 </tr>
                 <tr>
                 	<td>9:00am</td>
-                    <td>Hierarchical Bayesian modelling (lecture)</td>
+                    <td>Good practice in Bayesian modelling (Florian Hartig)</td>
                 </tr>
+				<tr>
+					<td>10:30am</td>
+					<td>Group exercise 1 (Jörn Pagel)</td>
+				</tr>
                 <tr>
-                	<td>11:00am</td>
+                	<td>11:15am</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
-                	<td>11:15am</td>
-                    <td>Hierarchical Bayesian modelling (exercise)</td>
+                	<td>11:30am</td>
+                    <td>Group exercise 2 (Florian Hartig)</td>
                 </tr>
                 <tr>
                 	<td>12:30pm</td>
@@ -186,10 +196,6 @@
                 	<td>6:00pm</td>
                     <td>Evening meal</td>
                 </tr>
-                <tr>
-                	<td>7:00pm</td>
-                    <td>After-dinner forum</td>
-                </tr>
             </table>
             <h2>Thursday 20<sup>th</sup> September</h2>
             <table class="schedule">
@@ -199,15 +205,15 @@
                 </tr>
                 <tr>
                 	<td>9:00am</td>
-                    <td>Spatial models: an introduction to INLA (lecture)</td>
+                    <td>Hierarchical models and observation models (Jörn Pagel)</td>
                 </tr>
                 <tr>
-                	<td>11:00am</td>
+                	<td>10:45am</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
-                	<td>11:15am</td>
-                    <td>Spatial models: an introduction to INLA (exercise)</td>
+                	<td>11:00am</td>
+                    <td>State-space models (Jörn Pagel)</td>
                 </tr>
                 <tr>
                 	<td>12:30pm</td>
@@ -215,31 +221,23 @@
                 </tr>
                 <tr>
                 	<td>1:30pm</td>
-                    <td>Spatial models: an introduction to INLA (exercise)</td>
+                    <td>Regularization and model selection (Joseph Chipperfield)</td>
                 </tr>
                 <tr>
-                	<td>2:30pm</td>
-                    <td>Bayesian model selection (lecture)</td>
-                </tr>
-                <tr>
-                	<td>3:30pm</td>
+                	<td>3:00pm</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
-                	<td>3:45pm</td>
-                    <td>Bayesian model selection (lecture)</td>
+                	<td>3:15pm</td>
+                    <td>Introduction to spatial models (Joseph Chippperfield)</td>
                 </tr>
                 <tr>
                 	<td>5:00pm</td>
-                    <td>Bayesian model selection (exercise)</td>
+                    <td>Complex and multi-layer models: an overview (Florian Hartig)</td>
                 </tr>
                 <tr>
                 	<td>6:00pm</td>
                     <td>Evening meal</td>
-                </tr>
-                <tr>
-                	<td>7:00pm</td>
-                    <td>After-dinner forum</td>
                 </tr>
             </table>
             <h2>Friday 21<sup>st</sup> September</h2>
@@ -250,27 +248,27 @@
                 </tr>
                 <tr>
                 	<td>9:00am</td>
-                    <td>Bayesian model selection (exercise)</td>
+                    <td>Phylogenically weighted regression (Jörn Pagel)</td>
                 </tr>
                 <tr>
-                	<td>10:00am</td>
-                    <td>State-space models (lecture)</td>
-                </tr>
-                <tr>
-                	<td>11:00am</td>
+                	<td>10:45am</td>
                     <td>Coffee break</td>
                 </tr>
                 <tr>
-                	<td>11:15am</td>
-                    <td>State-space models (exercise)</td>
+                	<td>11:00am</td>
+                    <td>Bayesian methods for simulation models (Florian Hartig)</td>
                 </tr>
                 <tr>
-                	<td>12:30pm</td>
+                	<td>12:30am</td>
                     <td>Lunch</td>
                 </tr>
                 <tr>
                 	<td>1:30pm</td>
-                    <td>Bayesian methods for simulation models</td>
+                    <td>Generalized additive models (Joseph Chipperfield)</td>
+                </tr>
+                <tr>
+                	<td>2:30pm</td>
+                    <td>The Bayes Quiz (Florian Hartig)</td>
                 </tr>
                 <tr>
                 	<td>3:30pm</td>
@@ -278,8 +276,12 @@
                 </tr>
                 <tr>
                 	<td>3:45pm</td>
-                    <td>Questions and feedback</td>
+                    <td>Overview of the course (Joseph Chipperfield)</td>
                 </tr>
+				<tr>
+					<td>5:00pm</td>
+					<td>Questions and feedback</td>
+				</tr>
                 <tr>
                 	<td>6:00pm</td>
                 	<td>Evening meal</td>
